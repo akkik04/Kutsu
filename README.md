@@ -12,10 +12,10 @@ FYI: Kutsu is the Japanese term for shoes/footwear 😃
 ## Repository Architecture:
 
 - Currently, I plan on using the following architecture for this project:
-    - `data/` - contains the training and testing data
+    - `data/` - contains the training and testing data (data retrieved from: [here](https://www.kaggle.com/datasets/die9origephit/nike-adidas-and-converse-imaged))
 
-        - `training_data/` - contains the training data
-        - `testing_data/` - contains the validation data
+        - `train/` - contains the training data
+        - `test/` - contains the validation data
     
     - `notebooks/` - contains the Jupyter notebook
     - `README.md` - contains the project description
