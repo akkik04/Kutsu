@@ -23,6 +23,7 @@ FYI: Kutsu is the Japanese term for shoes/footwear 😃
 ## Current Approach:
 
 - The VGG16 model is a CNN that was trained on the ImageNet dataset. The model is able to classify images into 1000 different classes. I plan on using this model to perform transfer learning on my own training set.
+
     - As we know, the early layers of a CNN mainly train on features such as colours, edges, borders, meaning that these characteristics are transferable (hence we use transfer learning from the VGG16 model).
 
 Will continue to update this README as the project progresses! 👨‍💻
